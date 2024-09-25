@@ -6,7 +6,7 @@
 /*   By: claprand <claprand@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/24 15:34:31 by claprand          #+#    #+#             */
-/*   Updated: 2024/09/24 17:01:51 by claprand         ###   ########.fr       */
+/*   Updated: 2024/09/25 11:43:03 by claprand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,6 +101,5 @@ int			lock_forks(t_table *table, t_philo *philo);
 /*STATUS*/
 void		write_status(char *s, t_philo *philo);
 void		define_status(t_table *table, t_philo *philo, char *action);
-void		warning_limits(t_table *table);
 
-#endif
+#endif 
